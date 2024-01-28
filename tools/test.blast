@@ -1,0 +1,1 @@
+{"cells":[{"kind":2,"language":"javascript","value":"\nlet validator = await ic(\"uwkt7-miaaa-aaaal-qdeuq-cai\");\n\nawait validator.validate_icrc1_transfer({\n    to: {owner: me, subaccount: \"aaaaaaaaaaaaaaaaaaaaaaaaaa\"},\n    amount : 10n**30n,\n    fee: 10000,\n    memo:\"abababababab\"\n}).then(log);\n\n"}]}
